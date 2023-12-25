@@ -57,7 +57,7 @@ module.exports = (title, name, usn, guideName, selt1, selt2, dept) => {
         .text(selt2, { align: 'center' });
 
 
-    doc.image('images/acharya.jpg', 232, 515, { width: 160 }, { height: 150 });
+    doc.image('images/acharya.jpg', 230, 515, { width: 160 }, { height: 150 });
 
 
     doc.font('Times-Bold').fontSize(14).moveDown(9)
