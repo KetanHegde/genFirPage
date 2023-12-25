@@ -1,11 +1,10 @@
 {
-{
   "name": "gen-first-page",
   "version": "1.0.0",
   "description": "Project to generate the front page of the report",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
@@ -15,5 +14,5 @@
   "devDependencies": {
     "mocha": "^8.4.0"
   },
-  "author": "Ketan Hegde",
+  "author": "Ketan Hegde"
 }
