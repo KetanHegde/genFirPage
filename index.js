@@ -31,7 +31,7 @@ app.post('/submit', (req, res) => {
     // doc.fontSize(16).text('Hello, this is a PDF created with PDFKit!', 100, 100);
 
     // Set response headers for PDF download
-    res.setHeader('Content-Disposition', 'attachment; filename="output.pdf"');
+    res.setHeader('Content-Disposition', 'attachment; filename="first_page.pdf"');
     res.setHeader('Content-Type', 'application/pdf');
 
 
